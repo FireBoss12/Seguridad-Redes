@@ -48,10 +48,14 @@
             "id": "8cd45c6ddd0546d7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "01 - General Skills/1 - Lets Warm Up.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 - Lets Warm Up"
             }
           }
         ]
@@ -132,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01 - General Skills/1 - Lets Warm Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01 - General Skills/1 - Lets Warm Up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -192,6 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01 - General Skills/1 - Lets Warm Up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""

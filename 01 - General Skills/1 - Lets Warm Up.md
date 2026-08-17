@@ -7,11 +7,12 @@ If I told you a word started with 0x70 in hexadecimal, what would it start with 
 
 ## Solucion 2
 - Ir al intérprete de python 
-```>>> int(0x70)
+```
+>>> int(0x70)
 112
 >>> chr(112)
 'p'
->>> 
+>>>
 ``` 
 
 ## Notas adicionales
