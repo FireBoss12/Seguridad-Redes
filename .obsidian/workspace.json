@@ -4,123 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6df88e9d4093292c",
+        "id": "f931dba52d367f3c",
         "type": "tabs",
         "children": [
           {
-            "id": "cde2074d61c94784",
+            "id": "ec36207d7ef6beab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "01 - General Skills/40 - ASCII Numbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "c9d4a796fa802a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/1 - Lets Warm Up.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - Lets Warm Up"
-            }
-          },
-          {
-            "id": "e4fc0bfa5133b853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/22 - runme.py.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "22 - runme.py"
-            }
-          },
-          {
-            "id": "9f075e97d82b9c1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/23 - Codebook.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "23 - Codebook"
-            }
-          },
-          {
-            "id": "d1081b54d05fb303",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/25 - fixme1.py.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "25 - fixme1.py"
-            }
-          },
-          {
-            "id": "c45d6472c9fe6a98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/27 - PW Crack 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "27 - PW Crack 1"
-            }
-          },
-          {
-            "id": "cf07a2a99cfd5cbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/29 - PW Crack 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29 - PW Crack 3"
-            }
-          },
-          {
-            "id": "d87fe73b53f44a4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/30 - Serpentine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "30 - Serpentine"
+              "title": "40 - ASCII Numbers"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -287,10 +188,23 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d87fe73b53f44a4c",
+  "active": "ec36207d7ef6beab",
   "lastOpenFiles": [
-    "01 - General Skills/23 - Codebook.md",
+    "01 - General Skills/39 - binhexa.md",
+    "01 - General Skills/38 - binary search.md",
+    "01 - General Skills/37 - collaborative development.md",
+    "01 - General Skills/36 - blame game.md",
+    "01 - General Skills/34 - committee issues.md",
+    "01 - General Skills/35 - time machine.md",
+    "01 - General Skills/33 - special.md",
+    "01 - General Skills/32 - chrono.md",
+    "01 - General Skills/31 - permissions.md",
+    "01 - General Skills/40 - ASCII Numbers.md",
+    "Plantilla.md",
+    "01 - General Skills/Sin nombre",
+    "README.md",
     "01 - General Skills/30 - Serpentine.md",
+    "01 - General Skills/23 - Codebook.md",
     "01 - General Skills/29 - PW Crack 3.md",
     "01 - General Skills/28 - PW Crack 2.md",
     "01 - General Skills/27 - PW Crack 1.md",
@@ -299,22 +213,10 @@
     "01 - General Skills/25 - fixme1.py.md",
     "01 - General Skills/22 - runme.py.md",
     "01 - General Skills/21 - Super SSH.md",
-    "Plantilla.md",
     "01 - General Skills/20 - First Find.md",
     "01 - General Skills/19 - Big zip.md",
     "01 - General Skills/18 - repetitions.md",
     "01 - General Skills/17 - Magikarp Ground Mission.md",
-    "01 - General Skills/16 - Tab, Tab, Attack.md",
-    "01 - General Skills/15 - useless.md",
-    "01 - General Skills/14 - Static ain't always noise.md",
-    "01 - General Skills/13 - Wave a flag.md",
-    "01 - General Skills/8 - plumbing.md",
-    "01 - General Skills/12 - strings it.md",
-    "01 - General Skills/11 - Based.md",
-    "01 - General Skills/10 - Nice netcat....md",
-    "01 - General Skills/9 - Glitch Cat.md",
-    "01 - General Skills/5 - First Grep.md",
-    "01 - General Skills/6 - Obedient Cat.md",
     "01 - General Skills"
   ]
 }
