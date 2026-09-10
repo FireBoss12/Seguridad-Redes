@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - General Skills/46 - Client-side-again.md",
+                "file": "01 - General Skills/49 - Scavenger Hunt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "46 - Client-side-again"
+              "title": "49 - Scavenger Hunt"
             }
           }
         ]
@@ -190,14 +190,17 @@
   },
   "active": "ec36207d7ef6beab",
   "lastOpenFiles": [
+    "01 - General Skills/48 - Cookies.md",
+    "01 - General Skills/47 - GET aHEAD.md",
+    "01 - General Skills/49 - Scavenger Hunt.md",
+    "Plantilla.md",
+    "01 - General Skills/46 - Client-side-again.md",
     "01 - General Skills/44 - dont-use-client-side.md",
     "01 - General Skills/43 - logon.md",
-    "01 - General Skills/46 - Client-side-again.md",
     "01 - General Skills/45 - picobrowser.md",
     "01 - General Skills/42 - where are the robots.md",
     "01 - General Skills/41 - Insp3ctor.md",
     "01 - General Skills/40 - ASCII Numbers.md",
-    "Plantilla.md",
     "01 - General Skills/39 - binhexa.md",
     "01 - General Skills/38 - binary search.md",
     "01 - General Skills/37 - collaborative development.md",
@@ -214,9 +217,6 @@
     "01 - General Skills/29 - PW Crack 3.md",
     "01 - General Skills/28 - PW Crack 2.md",
     "01 - General Skills/27 - PW Crack 1.md",
-    "01 - General Skills/26 - fixme2.py.md",
-    "01 - General Skills/24 - convertme.py.md",
-    "01 - General Skills/25 - fixme1.py.md",
     "01 - General Skills"
   ]
 }
