@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b797738820939f85",
+            "id": "ec36207d7ef6beab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - General Skills/52 - JaWT Scratchpad.md",
+                "file": "01 - General Skills/49 - Scavenger Hunt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "52 - JaWT Scratchpad"
+              "title": "49 - Scavenger Hunt"
             }
           }
         ]
@@ -188,21 +188,19 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b797738820939f85",
+  "active": "ec36207d7ef6beab",
   "lastOpenFiles": [
-    "01 - General Skills/51 - More SQLi.md",
-    "01 - General Skills/50 - Irish-Name-Repo- 1.md",
-    "01 - General Skills/52 - JaWT Scratchpad.md",
+    "01 - General Skills/48 - Cookies.md",
+    "01 - General Skills/47 - GET aHEAD.md",
     "01 - General Skills/49 - Scavenger Hunt.md",
     "Plantilla.md",
-    "Sin título.md",
+    "01 - General Skills/46 - Client-side-again.md",
+    "01 - General Skills/44 - dont-use-client-side.md",
     "01 - General Skills/43 - logon.md",
+    "01 - General Skills/45 - picobrowser.md",
     "01 - General Skills/42 - where are the robots.md",
     "01 - General Skills/41 - Insp3ctor.md",
     "01 - General Skills/40 - ASCII Numbers.md",
-    "01 - General Skills/46 - Client-side-again.md",
-    "01 - General Skills/45 - picobrowser.md",
-    "01 - General Skills/44 - dont-use-client-side.md",
     "01 - General Skills/39 - binhexa.md",
     "01 - General Skills/38 - binary search.md",
     "01 - General Skills/37 - collaborative development.md",
@@ -217,6 +215,8 @@
     "01 - General Skills/30 - Serpentine.md",
     "01 - General Skills/23 - Codebook.md",
     "01 - General Skills/29 - PW Crack 3.md",
+    "01 - General Skills/28 - PW Crack 2.md",
+    "01 - General Skills/27 - PW Crack 1.md",
     "01 - General Skills"
   ]
 }

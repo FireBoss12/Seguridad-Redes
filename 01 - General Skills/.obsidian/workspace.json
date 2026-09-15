@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "7fa220aa2e3b758b",
+    "id": "a6598a7a8fb375ab",
     "type": "split",
     "children": [
       {
-        "id": "f931dba52d367f3c",
+        "id": "16eade01b35525d7",
         "type": "tabs",
         "children": [
           {
-            "id": "b797738820939f85",
+            "id": "e0d3d40f75c41555",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/52 - JaWT Scratchpad.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "52 - JaWT Scratchpad"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9e2176e58e49dbaa",
+    "id": "f171463b06505e1a",
     "type": "split",
     "children": [
       {
-        "id": "0d401864a6773bb4",
+        "id": "1b7989d1de32320e",
         "type": "tabs",
         "children": [
           {
-            "id": "be8db94d0540bfb4",
+            "id": "41a566265a55ffe9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "4acf19299d8459d8",
+            "id": "76ed0272d07f76fe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +63,7 @@
             }
           },
           {
-            "id": "77185cf14baf33be",
+            "id": "a83884f236ab539f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,20 +82,19 @@
     "width": 300
   },
   "right": {
-    "id": "957bf3463906fcc8",
+    "id": "d0e4979064141635",
     "type": "split",
     "children": [
       {
-        "id": "ef7248c5c355a3c3",
+        "id": "22d16dbc9586781d",
         "type": "tabs",
         "children": [
           {
-            "id": "3d48579c0e41a371",
+            "id": "d2380b843b97fa1f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - General Skills/1 - Lets Warm Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,12 +108,11 @@
             }
           },
           {
-            "id": "8087d183ddca8b7a",
+            "id": "376d65d783f7fe9c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - General Skills/1 - Lets Warm Up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -127,7 +121,7 @@
             }
           },
           {
-            "id": "297fd7433a8c90da",
+            "id": "63c6e0d049dd4891",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +136,7 @@
             }
           },
           {
-            "id": "2e427ca23ad46c86",
+            "id": "e79f80a2b9d5340b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,12 +150,11 @@
             }
           },
           {
-            "id": "b74d0b4ae995a622",
+            "id": "41a028822d294d17",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - General Skills/1 - Lets Warm Up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,35 +181,6 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b797738820939f85",
-  "lastOpenFiles": [
-    "01 - General Skills/51 - More SQLi.md",
-    "01 - General Skills/50 - Irish-Name-Repo- 1.md",
-    "01 - General Skills/52 - JaWT Scratchpad.md",
-    "01 - General Skills/49 - Scavenger Hunt.md",
-    "Plantilla.md",
-    "Sin título.md",
-    "01 - General Skills/43 - logon.md",
-    "01 - General Skills/42 - where are the robots.md",
-    "01 - General Skills/41 - Insp3ctor.md",
-    "01 - General Skills/40 - ASCII Numbers.md",
-    "01 - General Skills/46 - Client-side-again.md",
-    "01 - General Skills/45 - picobrowser.md",
-    "01 - General Skills/44 - dont-use-client-side.md",
-    "01 - General Skills/39 - binhexa.md",
-    "01 - General Skills/38 - binary search.md",
-    "01 - General Skills/37 - collaborative development.md",
-    "01 - General Skills/36 - blame game.md",
-    "01 - General Skills/34 - committee issues.md",
-    "01 - General Skills/35 - time machine.md",
-    "01 - General Skills/33 - special.md",
-    "01 - General Skills/32 - chrono.md",
-    "01 - General Skills/31 - permissions.md",
-    "01 - General Skills/Sin nombre",
-    "README.md",
-    "01 - General Skills/30 - Serpentine.md",
-    "01 - General Skills/23 - Codebook.md",
-    "01 - General Skills/29 - PW Crack 3.md",
-    "01 - General Skills"
-  ]
+  "active": "41a566265a55ffe9",
+  "lastOpenFiles": []
 }
