@@ -1,5 +1,4 @@
 ## Descripción
-<<<<<<< HEAD
 This website can be rendered only by picobrowser, go and catch the flag!
 
 [http://fickle-tempest.picoctf.net:65015](http://fickle-tempest.picoctf.net:65015/)
@@ -11,8 +10,5 @@ FireBoss478-academy@webshell:~$ curl -s http://fickle-tempest.picoctf.net:65015/
 ```
 Solución:
 picoCTF{p1c0_s3cr3t_ag3nt_fba5c48f}
-=======
-## Solución
->>>>>>> aa59f67 (cambios)
 ## Notas adicionales
 ## Referencias

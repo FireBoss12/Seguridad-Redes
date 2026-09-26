@@ -1,5 +1,4 @@
 ## Descripción
-<<<<<<< HEAD
 Can you break into this super secure portal?
 
 [http://fickle-tempest.picoctf.net:62820](http://fickle-tempest.picoctf.net:62820/)
@@ -11,8 +10,3 @@ picoCTF{not_this_again_4daf93}
 ## Notas adicionales
 ## Referencias
 https://gemini.google.com/app/6222664d339ff227?hl=es-MX
-=======
-## Solución
-## Notas adicionales
-## Referencias
->>>>>>> aa59f67 (cambios)

