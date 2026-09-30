@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "13323aed3e4a8c51",
+        "id": "3a818a47e54d2a89",
         "type": "tabs",
         "children": [
           {
-            "id": "b1216ba53f30c547",
+            "id": "1a01da46b91318ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - General Skills/71 - What Lies Within.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "71 - What Lies Within"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -188,13 +184,34 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b1216ba53f30c547",
+  "active": "1a01da46b91318ce",
   "lastOpenFiles": [
+    "Primer Parcial - General Skills/2 - Wave a flag.md",
+    "01 - General Skills/76 - shark on wire 2.md",
+    "01 - General Skills/75 - like1000.md",
+    "01 - General Skills/74 - c0rrupt.md",
+    "01 - General Skills/72 - m00nwalk.md",
+    "01 - General Skills/73 - WhitePages.md",
+    "01 - General Skills/24 - convertme.py.md",
+    "01 - General Skills/51 - More SQLi.md",
+    "01 - General Skills/62 - Roboto Sans.md",
+    "01 - General Skills/63 - Secrets.md",
     "01 - General Skills/70 - extensions.md",
+    "Primer Parcial - General Skills/6 - Python Wrangling.md",
+    "Plantilla.md",
+    "01 - General Skills/71 - What Lies Within.md",
+    "Primer Parcial - General Skills/1 - dont-you-lobe-banners.md",
+    "Primer Parcial - General Skills/10 - SansAlpha.md",
+    "Primer Parcial - General Skills/9 - Rust fixme 3.md",
+    "Primer Parcial - General Skills/8 - Rust fixme 2.md",
+    "Primer Parcial - General Skills/7 - Rust fixme 1.md",
+    "Primer Parcial - General Skills/5 - HashingJobApp.md",
+    "Primer Parcial - General Skills/4 - FANTASY CTF.md",
+    "Primer Parcial - General Skills/3 - flag_shop.md",
+    "Primer Parcial - General Skills",
+    "01 - General Skills/Sin nombre",
     "01 - General Skills/69 - shark on wire 1.md",
     "01 - General Skills/68 - So Meta.md",
-    "01 - General Skills/67 - Glory of the Garden.md",
-    "01 - General Skills/71 - What Lies Within.md",
-    "Plantilla.md"
+    "01 - General Skills/67 - Glory of the Garden.md"
   ]
 }
