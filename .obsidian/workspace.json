@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - General Skills/88 - The numbers.md",
+                "file": "01 - General Skills/96 - rsa-pop-quiz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "88 - The numbers"
+              "title": "96 - rsa-pop-quiz"
             }
           }
         ]
@@ -190,10 +190,10 @@
   },
   "active": "1a01da46b91318ce",
   "lastOpenFiles": [
+    "01 - General Skills/88 - The numbers.md",
     "01 - General Skills/89 - 13.md",
     "01 - General Skills/91 - waves over lambda.md",
     "01 - General Skills/90 - Caesar.md",
-    "01 - General Skills/88 - The numbers.md",
     "01 - General Skills/95 - interencdec.md",
     "01 - General Skills/94 - waves over lambda.md",
     "01 - General Skills/93 - Tapping.md",

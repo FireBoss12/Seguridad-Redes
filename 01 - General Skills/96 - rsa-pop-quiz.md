@@ -1,0 +1,271 @@
+## Descripción
+
+¡Clase, tomen asiento! ¡Es hora de un examen sorpresa!
+
+Reto de criptografía de dificultad difícil de picoCTF 2019, creado por wparks/nmontierth. Consiste en responder preguntas sobre RSA, calcular los valores solicitados y decidir si cada operación es posible y factible.
+
+Se documentan las ocho preguntas de la sesión completa, sus respuestas aceptadas por el servidor y las fórmulas del apunte proporcionado.
+
+## Solución
+
+Conectarse a la instancia utilizada en la sesión:
+
+```bash
+nc chatelaine.cylabacademy.net 23810
+```
+
+El servidor solicita primero `Y` o `N`. Si se responde `Y`, se introduce el entero decimal solicitado.
+
+Resumen de las ocho preguntas:
+
+| Pregunta | Datos conocidos | Valor solicitado | Respuesta | Cálculo |
+| --- | --- | --- | --- | --- |
+| 1 | `p`, `q` | `n` | `Y` | `p * q` |
+| 2 | `p`, `n` | `q` | `Y` | `n // p` |
+| 3 | `n`, `e` | `p`, `q` | `N` | No se dispone de una factorización práctica. |
+| 4 | `p`, `q` | `totient(n)` | `Y` | `(p - 1) * (q - 1)` |
+| 5 | `e`, `m`, `n` | `ciphertext` | `Y` | `pow(m, e, n)` |
+| 6 | `e`, `c`, `n` | `plaintext` | `N` | No se identificó un descifrado práctico para este caso. |
+| 7 | `e`, `p`, `q` | `d` | `Y` | `pow(e, -1, (p - 1) * (q - 1))` |
+| 8 | `e`, `p`, `n`, `c` | `plaintext` | `Y` | Calcular `q`, `d` y después `pow(c, d, n)`. |
+
+Componentes de RSA:
+
+| Símbolo | Significado |
+| --- | --- |
+| `m` | Mensaje original o plaintext, representado como entero. |
+| `c` | Mensaje cifrado o ciphertext. |
+| `p`, `q` | Dos números primos distintos. |
+| `n` | Módulo RSA: `n = p * q`. |
+| `tn` o `φ(n)` | Función de Euler: `(p - 1) * (q - 1)`. |
+| `e` | Exponente público. |
+| `d` | Exponente privado: inverso modular de `e` módulo `φ(n)`. |
+
+Fórmulas utilizadas:
+
+```text
+n  = p * q
+tn = (p - 1) * (q - 1)
+d  = pow(e, -1, tn)
+c  = pow(m, e, n)
+m  = pow(c, d, n)
+```
+
+### 1. Calcular `n` conociendo `p` y `q`
+
+El módulo RSA es el producto de los dos factores primos.
+
+```python
+p = 76753
+q = 60413
+
+n = p * q
+print(n)
+```
+
+Respuesta: `Y`.
+
+```text
+n: 4636878989
+```
+
+### 2. Calcular `q` conociendo `p` y `n`
+
+Como `n = p * q`, se divide el módulo entre el factor conocido.
+
+```python
+p = 54269
+n = 5051846941
+
+assert n % p == 0
+q = n // p
+print(q)
+```
+
+Respuesta: `Y`.
+
+```text
+q: 93089
+```
+
+### 3. Obtener `p` y `q` conociendo únicamente `n` y `e`
+
+Datos proporcionados:
+
+```text
+n: 12738162802910546503821920886905393316386362759567480839428456525224226445173031635306683726182522494910808518920409019414034814409330094245825749680913204566832337704700165993198897029795786969124232138869784626202501366135975223827287812326250577148625360887698930625504334325804587329905617936581116392784684334664204309771430814449606147221349888320403451637882447709796221706470239625292297988766493746209684880843111138170600039888112404411310974758532603998608057008811836384597579147244737606088756299939654265086899096359070667266167754944587948695842171915048619846282873769413489072243477764350071787327913
+e: 3
+```
+
+Se solicitaron los dos factores primos de un módulo grande. Con los datos proporcionados no se dispone de una factorización ni de un método práctico identificado para obtenerla. Conocer `e = 3` no proporciona directamente los factores.
+
+Respuesta aceptada por el servidor:
+
+```text
+IS THIS POSSIBLE and FEASIBLE? (Y/N): N
+```
+
+### 4. Calcular `totient(n)` conociendo `p` y `q`
+
+Para dos primos distintos se utiliza `φ(n) = (p - 1) * (q - 1)`.
+
+```python
+p = 12611
+q = 66347
+
+tn = (p - 1) * (q - 1)
+print(tn)
+```
+
+Respuesta: `Y`.
+
+```text
+totient(n): 836623060
+```
+
+### 5. Calcular el ciphertext conociendo `m`, `e` y `n`
+
+En la quinta pregunta se proporcionó `e = 3`, el plaintext y el módulo. Se aplicó `c = m^e mod n`.
+
+```python
+e = 3
+m = 6357294171489311547190987615544575133581967886499484091352661406414044440475205342882841236357665973431462491355089413710392273380203038793241564304774271529108729717
+n = 29129463609326322559521123136222078780585451208149138547799121083622333250646678767769126248182207478527881025116332742616201890576280859777513414460842754045651093593251726785499360828237897586278068419875517543013545369871704159718105354690802726645710699029936754265654381929650494383622583174075805797766685192325859982797796060391271817578087472948205626257717479858369754502615173773514087437504532994142632207906501079835037052797306690891600559321673928943158514646572885986881016569647357891598545880304236145548059520898133142087545369179876065657214225826997676844000054327141666320553082128424707948750331
+
+c = pow(m, e, n)
+print(c)
+```
+
+Ciphertext obtenido:
+
+```text
+256931246631782714357241556582441991993437399854161372646318659020994329843524306570818293602492485385337029697819837182169818816821461486018802894936801257629375428544752970630870631166355711254848465862207765051226282541748174535990314552471546936536330397892907207943448897073772015986097770443616540466471245438117157152783246654401668267323136450122287983612851171545784168132230208726238881861407976917850248110805724300421712827401063963117423718797887144760360749619552577176382615108244813
+```
+
+La operación es posible y factible: `Y`. En este caso también se cumple `m**3 < n`, por lo que el resultado coincide con `m**3`.
+
+### 6. Evaluar si se puede recuperar el plaintext con `e = 3`, `c` y `n`
+
+Se probó el ataque directo de raíz cúbica: si `m**3 < n`, entonces `c = m**3` y el mensaje puede recuperarse con una raíz cúbica entera exacta.
+
+```python
+e = 3
+c = 107524013451079348539944510756143604203925717262185033799328445011792760545528944993719783392542163428637172323512252624567111110666168664743115203791510985709942366609626436995887781674651272233566303814979677507101168587739375699009734588985482369702634499544891509228440194615376339573685285125730286623323
+n = 27566996291508213932419371385141522859343226560050921196294761870500846140132385080994630946107675330189606021165260590147068785820203600882092467797813519434652632126061353583124063944373336654246386074125394368479677295167494332556053947231141336142392086767742035970752738056297057898704112912616565299451359791548536846025854378347423520104947907334451056339439706623069503088916316369813499705073573777577169392401411708920615574908593784282546154486446779246790294398198854547069593987224578333683144886242572837465834139561122101527973799583927411936200068176539747586449939559180772690007261562703222558103359
+
+def raiz_cubica_entera(numero):
+    inferior = 0
+    superior = 1 << ((numero.bit_length() + 2) // 3)
+    while inferior < superior:
+        medio = (inferior + superior + 1) // 2
+        if medio ** 3 <= numero:
+            inferior = medio
+        else:
+            superior = medio - 1
+    return inferior
+
+m = raiz_cubica_entera(c)
+print("Es cubo perfecto:", m ** e == c)
+```
+
+Resultado:
+
+```text
+Es cubo perfecto: False
+```
+
+Para esta pregunta se respondió:
+
+```text
+IS THIS POSSIBLE and FEASIBLE? (Y/N): N
+```
+
+El ciphertext no es un cubo perfecto y el ataque directo no recupera el plaintext. Tener `e = 3` por sí solo no garantiza poder descifrar RSA; este resultado tampoco demuestra que todos los ataques posibles sean inviables.
+
+### 7. Calcular el exponente privado `d` conociendo `p`, `q` y `e`
+
+Primero se calculó `tn = (p - 1) * (q - 1)` y después el inverso modular de `e`.
+
+```python
+e = 65537
+p = 97846775312392801037224396977012615848433199640105786119757047098757998273009741128821931277074555731813289423891389911801250326299324018557072727051765547115514791337578758859803890173153277252326496062476389498019821358465433398338364421624871010292162533041884897182597065662521825095949253625730631876637
+q = 92092076805892533739724722602668675840671093008520241548191914215399824020372076186460768206814914423802230398410980218741906960527104568970225804374404612617736579286959865287226538692911376507934256844456333236362669879347073756238894784951597211105734179388300051579994253565459304743059533646753003894559
+
+tn = (p - 1) * (q - 1)
+d = pow(e, -1, tn)
+
+print("d:")
+print(d)
+print("Verificacion:", (e * d) % tn)
+```
+
+Valor completo de `d`:
+
+```text
+1405046269503207469140791548403639533127416416214210694972085079171787580463776820425965898174272870486015739516125786182821637006600742140682552321645503743280670839819078749092730110549881891271317396450158021688253989767145578723458252769465545504142139663476747479225923933192421405464414574786272963741656223941750084051228611576708609346787101088759062724389874160693008783334605903142528824559223515203978707969795087506678894006628296743079886244349469131831225757926844843554897638786146036869572653204735650843186722732736888918789379054050122205253165705085538743651258400390580971043144644984654914856729
+```
+
+La verificación `(e * d) % tn` produce `1`. Ese `1` comprueba el cálculo; el dato que solicita el reto es el valor completo de `d` mostrado arriba.
+
+La operación es posible y factible: `Y`.
+
+### 8. Recuperar el plaintext conociendo `p`, `n`, `e` y el ciphertext
+
+Se obtuvo el otro factor con `q = n // p`, se calculó `d` y se descifró con `m = pow(c, d, n)`. Finalmente se convirtió el entero a bytes para leer la flag.
+
+```python
+e = 65537
+p = 153143042272527868798412612417204434156935146874282990942386694020462861918068684561281763577034706600608387699148071015194725533394126069826857182428660427818277378724977554365910231524827258160904493774748749088477328204812171935987088715261127321911849092207070653272176072509933245978935455542420691737433
+n = 23952937352643527451379227516428377705004894508566304313177880191662177061878993798938496818120987817049538365206671401938265663712351239785237507341311858383628932183083145614696585411921662992078376103990806989257289472590902167457302888198293135333083734504191910953238278860923153746261500759411620299864395158783509535039259714359526738924736952759753503357614939203434092075676169179112452620687731670534906069845965633455748606649062394293289967059348143206600765820021392608270528856238306849191113241355842396325210132358046616312901337987464473799040762271876389031455051640937681745409057246190498795697239
+c = 7326030277055149910950004869515328997393877431186615983893993374022767385324566167027644997713100384048908639734325479547677627573970347369428127580129970030680611074994022340830438442425512199945789140419398999348977702724305103325220661780470268731168609049064865386527849725329210414275700649533089007917892782672324703472608826087390384263046113779233144968100539442833358274842394357242302265310097346594586929274640626760101927752539605669031678117051905314029074100664160987971662022704283707088627649743704132395529905560301623372056595542604041107948080813485594655853666148109582952324552946169348943677329
+
+assert n % p == 0
+q = n // p
+tn = (p - 1) * (q - 1)
+d = pow(e, -1, tn)
+
+m = pow(c, d, n)
+assert pow(m, e, n) == c
+
+print("Plaintext:")
+print(m)
+print("Flag:")
+print(m.to_bytes((m.bit_length() + 7) // 8, "big").decode("utf-8"))
+```
+
+Plaintext solicitado por el quiz:
+
+```text
+12398954807676569242017981049973013411282548937863661020322858792013936855967604175255454077
+```
+
+La operación es posible y factible: `Y`. Se verificó que volver a cifrar el plaintext recuperado produce el ciphertext original.
+
+La pista final indica convertir el último plaintext a hexadecimal y después a ASCII. La conversión del entero a bytes realizada en el código permite leer ese mismo texto.
+
+Solución:
+
+```text
+academy{wA8_th4t$_ill3aGal..o7EB8FbEA}
+```
+
+## Notas adicionales
+
+- RSA utiliza criptografía asimétrica. La clave pública contiene `(n, e)` y la operación privada utiliza `(n, d)`.
+- `e = 65537` es un valor habitual; las preguntas 3, 5 y 6 de esta sesión utilizan `e = 3`.
+- La fórmula `φ(n) = (p - 1) * (q - 1)` corresponde al caso de dos factores primos distintos.
+- Para que exista el inverso modular se necesita que `e` y `φ(n)` sean coprimos.
+- En las fórmulas matemáticas `^` representa una potencia; en Python se usa `**`. Para potencias modulares se utiliza `pow(base, exponente, modulo)`.
+- Las raíces y los cálculos con enteros grandes se realizan sin convertir a números de punto flotante.
+- Cuando el quiz solicita `plaintext` o `d`, se debe introducir el entero decimal completo. La flag se obtiene al interpretar como texto el plaintext de la última pregunta.
+- Las ocho respuestas recibieron `Outstanding move!!!` en la sesión proporcionada.
+- El puerto `23810` corresponde a la instancia utilizada y puede cambiar al iniciar otra.
+- Los resultados corresponden a los parámetros de la transcripción completa y de la conversación compartida.
+
+## Referencias
+
+- Transcripción completa de la sesión de `rsa-pop-quiz` proporcionada por el usuario.
+- [Conversación con los parámetros y las soluciones](https://chatgpt.com/share/6acfb3f4-8c38-83e8-8cfa-98dc3067a261)
+- Apunte de RSA proporcionado por el usuario: componentes, función de Euler, cifrado y descifrado.
+- [Función pow de Python](https://docs.python.org/3/library/functions.html#pow)
+- [Conversión de enteros a bytes en Python](https://docs.python.org/3/library/stdtypes.html#int.to_bytes)
