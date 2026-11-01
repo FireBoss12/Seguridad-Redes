@@ -28,7 +28,7 @@ academy{h1dd3n_1n_th3_b1n4ry_fd12019b}
 
 5. Introducir la bandera en CyLab Security Academy. **Fue aceptada** y se observó `Challenge solved!` el **31 de octubre de 2026**.
 
-![Imagen recuperada](../Evidencias/Binary-Digits.jpg)
+![Imagen recuperada](Evidencias/Binary-Digits.jpg)
 
 ## Notas adicionales
 
@@ -38,3 +38,4 @@ La salida empieza con FF D8 FF E0 y el identificador JFIF. La extensión .bin no
 
 - [Binary Digits — CyLab Security Academy](https://learn.cylabacademy.org/assignments/13494/698)
 - [digits.bin](https://challenge-files.cylabacademy.net/library/86570bf97a45f6374b4d3acb666203f98deb9ad1368d23b1d5ca1e5531391e1b/digits.bin)
+

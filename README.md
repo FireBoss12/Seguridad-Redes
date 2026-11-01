@@ -27,4 +27,8 @@
 
 ## Segundo Examen Parcial
 
-[Soluciones y seguimiento](Segundo%20Parcial/README.md): **20/20 flags aceptadas** el 31 de octubre de 2026 (Forensic 10/10, Crypto 10/10).
+**20/20 flags aceptadas** el 31 de octubre de 2026.
+
+- [Parte 1 - Forensic](Segundo%20Parcial/Parte%201%20-%20Forensic) — 10/10.
+- [Parte 2 - Crypto](Segundo%20Parcial/Parte%202%20-%20Crypto) — 10/10.
+

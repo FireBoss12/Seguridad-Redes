@@ -26,7 +26,7 @@ academy{r3st0r1ng_th3_by73s_69066302}
 
 5. Introducir la bandera en CyLab Security Academy. **Fue aceptada** y se observó `Challenge solved!` el **31 de octubre de 2026**.
 
-![Imagen recuperada](../Evidencias/Corrupted-file.jpg)
+![Imagen recuperada](Evidencias/Corrupted-file.jpg)
 
 ## Notas adicionales
 
@@ -36,3 +36,4 @@ Solo se sustituyeron los primeros tres bytes; el resto del contenido se conserv�
 
 - [Corrupted file — CyLab Security Academy](https://learn.cylabacademy.org/assignments/13494/519)
 - [file](https://challenge-files.cylabacademy.net/library/03e658f970a580c265471fa9e2477a66457bed10e5f89da0fe70c141c3509f3b/file)
+

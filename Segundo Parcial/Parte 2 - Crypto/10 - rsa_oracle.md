@@ -63,7 +63,7 @@ academy{su((3ss_(r@ck1ng_r3@_88a127f1}
 
 8. Introducir la bandera en CyLab Security Academy. **Fue aceptada** y se observó `Correct flag!` el **31 de octubre de 2026**.
 
-![rsa_oracle aceptada](../Evidencias/rsa_oracle-solved.jpg)
+![rsa_oracle aceptada](Evidencias/rsa_oracle-solved.jpg)
 
 ## Notas adicionales
 
@@ -78,3 +78,4 @@ academy{su((3ss_(r@ck1ng_r3@_88a127f1}
 - [rsa_oracle — CyLab Security Academy](https://learn.cylabacademy.org/assignments/13495/422)
 - [secret.enc](https://challenge-files.cylabacademy.net/library/c160444b2e2c0d9b093294670f0feec4d0e65abfcfc56e9524fb337c65cb9110/secret.enc)
 - [password.enc](https://challenge-files.cylabacademy.net/library/c160444b2e2c0d9b093294670f0feec4d0e65abfcfc56e9524fb337c65cb9110/password.enc)
+

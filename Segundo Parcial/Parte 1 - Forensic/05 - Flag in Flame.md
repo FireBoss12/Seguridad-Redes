@@ -28,7 +28,7 @@ academy{forensics_analysis_is_amazing_2043dbd1}
 
 5. Introducir la bandera en CyLab Security Academy. **Fue aceptada** y se observó `Challenge solved!` el **31 de octubre de 2026**.
 
-![Imagen recuperada](../Evidencias/Flag-in-Flame.png)
+![Imagen recuperada](Evidencias/Flag-in-Flame.png)
 
 ## Notas adicionales
 
@@ -38,3 +38,4 @@ Las capas eran Base64 -> imagen PNG -> texto hexadecimal -> bandera. La imagen r
 
 - [Flag in Flame — CyLab Security Academy](https://learn.cylabacademy.org/assignments/13494/523)
 - [logs.txt](https://challenge-files.cylabacademy.net/library/e6fc51b98dd61381c5cd54dc836c8344fb475f17728f2095969e3a0f401ea195/logs.txt)
+
