@@ -8,3 +8,7 @@
 - Reto 1
 - Reto 2
 - Reto 3
+
+## Segundo Examen Parcial
+
+[Soluciones y seguimiento](Segundo%20Parcial/README.md): 16/20 flags aceptadas al corte del 31 de octubre de 2026.
