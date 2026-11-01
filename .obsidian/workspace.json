@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "d2831cdfe087dcb5",
+    "id": "d7842bf240585451",
     "type": "split",
     "children": [
       {
-        "id": "20cea1473a4daf43",
+        "id": "3a818a47e54d2a89",
         "type": "tabs",
         "children": [
           {
-            "id": "db3d266b8ff84bc0",
+            "id": "1a01da46b91318ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - General Skills/106 - Mini RSA.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "106 - Mini RSA"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6e8f5d472aede6ee",
+    "id": "79654d3d8c2c7b61",
     "type": "split",
     "children": [
       {
-        "id": "e159a5e8095c7ff0",
+        "id": "b5a4eaecd1624b84",
         "type": "tabs",
         "children": [
           {
-            "id": "e427347e36cdd22c",
+            "id": "72b40fbc065bf676",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +50,7 @@
             }
           },
           {
-            "id": "c0ea0a3c48c261d8",
+            "id": "c15959dd1669e1db",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +67,7 @@
             }
           },
           {
-            "id": "34d43e01ac252437",
+            "id": "02eddecffe23d518",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,19 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "96b3beaa0dc005c7",
+    "id": "dace4762776c48ef",
     "type": "split",
     "children": [
       {
-        "id": "b0d3deb8bf542b7c",
+        "id": "9c0bf9080f705153",
         "type": "tabs",
         "children": [
           {
-            "id": "07c4697a9b59fab2",
+            "id": "d3c42d9749ee6fd8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01 - General Skills/69 - shark on wire 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,11 +113,12 @@
             }
           },
           {
-            "id": "f087fb14ecd1754b",
+            "id": "254370cbe3390d20",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01 - General Skills/69 - shark on wire 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -121,7 +127,7 @@
             }
           },
           {
-            "id": "cf083c3a372f6291",
+            "id": "4a2f67d82dac05b7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,7 +142,7 @@
             }
           },
           {
-            "id": "96e3927c081db24f",
+            "id": "a7e1a981bd146365",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -150,11 +156,12 @@
             }
           },
           {
-            "id": "90ccf5453d89b601",
+            "id": "217690a47204f35b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "01 - General Skills/69 - shark on wire 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -178,47 +185,46 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Crear nueva base": false
     }
   },
-  "active": "db3d266b8ff84bc0",
+  "active": "1a01da46b91318ce",
   "lastOpenFiles": [
-    "Segundo Parcial/sedRS0PeO",
-    "Segundo Parcial/Evidencias/rsa_oracle-solved.jpg",
-    "Segundo Parcial/Evidencias/Corrupted-file.jpg",
-    "Segundo Parcial/Evidencias/Flag-in-Flame.png",
-    "Segundo Parcial/Evidencias/Binary-Digits.jpg",
-    "Segundo Parcial/Evidencias",
-    "Segundo Parcial/aceptadas.json",
-    "Segundo Parcial/PENDIENTES-PARA-CLAUDE.md",
-    "Segundo Parcial/Parte 2 - Crypto/10 - rsa_oracle.md",
-    "Segundo Parcial/Parte 2 - Crypto/09 - Related Messages.md",
-    "Segundo Parcial/Parte 2 - Crypto/08 - Small Trouble.md",
-    "Segundo Parcial/Parte 2 - Crypto/07 - Timestamped Secrets.md",
-    "Segundo Parcial/Parte 2 - Crypto/06 - Custom encryption.md",
-    "Segundo Parcial/Parte 2 - Crypto/05 - transposition-trial.md",
-    "Segundo Parcial/Parte 2 - Crypto/04 - Shared Secrets.md",
-    "Segundo Parcial/Parte 2 - Crypto/03 - StegoRSA.md",
-    "Segundo Parcial/Parte 2 - Crypto/02 - rotation.md",
-    "Segundo Parcial/Parte 2 - Crypto/01 - basic-mod2.md",
-    "Segundo Parcial/Parte 1 - Forensic/10 - DISKO 4.md",
-    "Segundo Parcial/Parte 1 - Forensic/09 - Timeline 1.md",
-    "Segundo Parcial/Parte 1 - Forensic/08 - Timeline 0.md",
-    "Segundo Parcial/Parte 1 - Forensic/07 - Binary Digits.md",
-    "Segundo Parcial/Parte 1 - Forensic/06 - Corrupted file.md",
-    "Segundo Parcial/Parte 1 - Forensic/05 - Flag in Flame.md",
-    "Segundo Parcial/Parte 1 - Forensic/04 - Hidden in plainsight.md",
-    "Segundo Parcial/Parte 1 - Forensic/03 - Riddle Registry.md",
-    "Segundo Parcial/Parte 1 - Forensic/02 - Enhance!.md",
-    "Segundo Parcial/Parte 1 - Forensic/01 - Lookey here.md",
-    "Segundo Parcial/resolver-texto.cjs",
-    "Segundo Parcial/recursos.json",
-    "Segundo Parcial/README.md",
-    "Segundo Parcial/Parte 2 - Crypto",
-    "Segundo Parcial/Parte 1 - Forensic",
-    "Segundo Parcial",
-    "01 - General Skills/15 - useless.md~RF252eb70.TMP",
-    "01 - General Skills/3 - Warmed Up.md~RF252eb31.TMP"
+    "01 - General Skills/107 - Mind your Ps and Qs.md",
+    "01 - General Skills/87 - Operation Oni.md",
+    "01 - General Skills/100 - hideme.md",
+    "01 - General Skills/99 - Redaction gone wrong.md",
+    "01 - General Skills/98 - St3g0.md",
+    "01 - General Skills/97 - information.md",
+    "01 - General Skills/96 - rsa-pop-quiz.md",
+    "01 - General Skills/88 - The numbers.md",
+    "01 - General Skills/89 - 13.md",
+    "01 - General Skills/91 - waves over lambda.md",
+    "01 - General Skills/90 - Caesar.md",
+    "01 - General Skills/95 - interencdec.md",
+    "01 - General Skills/94 - waves over lambda.md",
+    "01 - General Skills/93 - Tapping.md",
+    "01 - General Skills/92 - la cifra de.md",
+    "01 - General Skills/91 - Easy1.md",
+    "01 - General Skills/90 - morse-code.md",
+    "01 - General Skills/89 - la cifra de.md",
+    "01 - General Skills/88 - Easy1.md",
+    "01 - General Skills/86 - Operation Orchid.md",
+    "01 - General Skills/85 - Sleuthkit Apprentice.md",
+    "01 - General Skills/84 - Sleuthkit Intro.md",
+    "01 - General Skills/83 - Disk, disk, sleuth!.md",
+    "01 - General Skills/82 - Milkslap.md",
+    "01 - General Skills/77 - WebNet0.md",
+    "01 - General Skills/78 - WebNet1.md",
+    "Primer Parcial/Parte 2 - Web explotation/Tareas/02 - Tarea",
+    "Primer Parcial/Parte 2 - Web explotation/Tareas/01 - Tarea",
+    "Primer Parcial/Parte 2 - Web explotation/Tareas",
+    "Primer Parcial/Parte 2 - Web explotation/PICO CTF WEB/04 PICO_CTF WEB",
+    "Primer Parcial/Parte 2 - Web explotation/PICO CTF WEB/03 PICO_CTF WEB",
+    "Primer Parcial/Parte 2 - Web explotation/PICO CTF WEB/02 PICO_CTF_WEB",
+    "Primer Parcial/Parte 2 - Web explotation/PICO CTF WEB/01 PICO_CTF_WEB",
+    "Primer Parcial/Parte 2 - Web explotation/PICO CTF WEB",
+    "Primer Parcial/Parte 2 - Web explotation/General Skills/03 - General Skills",
+    "Primer Parcial/Parte 2 - Web explotation/General Skills/02 - General Skills"
   ]
 }
