@@ -78,5 +78,26 @@
     "flag": "academy{m3ssage_w1th_typ0}",
     "estado": "aceptada",
     "fecha": "2026-10-31"
+  },
+  "Hidden in plainsight": {
+    "flag": "academy{h1dd3n_1n_1m4g3_a2158aa5}",
+    "estado": "aceptada",
+    "fecha": "2026-10-31"
+  },
+  "Timeline 0": {
+    "flag": "academy{71m311n3_0u7113r_h3r_43a2e7af}",
+    "estado": "aceptada",
+    "fecha": "2026-10-31"
+  },
+  "Timeline 1": {
+    "flag": "academy{573417h13r_7h4n_7h3_1457_58527bb222}",
+    "estado": "aceptada",
+    "fecha": "2026-10-31"
+  },
+  "rsa_oracle": {
+    "flag": "academy{su((3ss_(r@ck1ng_r3@_88a127f1}",
+    "estado": "aceptada",
+    "fecha": "2026-10-31",
+    "nota": "Flag especifica de la instancia resuelta."
   }
 }

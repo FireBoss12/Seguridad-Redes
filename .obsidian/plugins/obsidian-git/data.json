@@ -1,0 +1,18 @@
+{
+  "autoSaveInterval": 10,
+  "autoPushInterval": 0,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": true,
+  "autoBackupAfterFileChange": true,
+  "differentIntervalCommitAndPush": false,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "syncMethod": "merge",
+  "mergeStrategy": "none",
+  "autoCommitGlobMode": "exclude",
+  "autoCommitGlobs": ".obsidian/**",
+  "autoCommitMessage": "Notas: {{date}}",
+  "commitMessage": "Notas: {{date}}",
+  "showStatusBar": true,
+  "showErrorNotices": true
+}
